@@ -1,0 +1,42 @@
+.item{
+   list-style-type: none; 
+   display: flex;
+   flex-direction: column;
+
+ 
+}
+
+label{
+   font-family: 'Urbanist', sans-serif;
+   color: #fcfffc;
+   font-size: 14px;
+   font-weight: 300;
+}
+
+button{
+
+   margin-bottom: 20px;
+
+   color: #fcfffc;
+   background-color: #ef6b54;
+   border: 1px solid #ef6b54;
+
+   
+     font-size: 12px;
+     padding: 5px 8px;
+     cursor: pointer;
+     margin-left: 5px;
+   
+}
+
+button:hover {
+     
+   color: #ef6b54;
+   background-color: #fcfffc;
+  
+      }
+     
+     input[type=checkbox]:checked + label{
+      text-decoration: line-through;
+      color: #fcfffc5a;
+    }
